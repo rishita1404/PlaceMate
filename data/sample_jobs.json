@@ -1,0 +1,82 @@
+[
+  {
+    "company_name": "TechNova Solutions",
+    "title": "Software Engineering Intern",
+    "description": "Join our engineering team for a 6-month internship. You will work on backend services, write unit tests, participate in code reviews, and contribute to production features under the guidance of senior engineers. This is a paid internship with potential for a full-time offer.",
+    "location": "Bangalore, India (Hybrid)",
+    "job_type": "internship",
+    "required_skills": ["Python", "REST APIs", "Git", "SQL"],
+    "preferred_skills": ["FastAPI", "PostgreSQL", "Docker", "Unit Testing"],
+    "eligibility_requirements": {
+      "degree": "B.Tech",
+      "graduation_year_min": 2024,
+      "graduation_year_max": 2026,
+      "min_gpa": 7.0
+    },
+    "official_url": "https://careers.technovasolutions.example.com/intern-swe",
+    "source_type": "seed"
+  },
+  {
+    "company_name": "DataLens AI",
+    "title": "Data Science Intern",
+    "description": "Work alongside our data science team building ML models for customer insights. Responsibilities include data cleaning, EDA, model training, and presenting findings. Experience with Pandas, Scikit-learn, and Jupyter is expected. Strong communication skills required.",
+    "location": "Remote (India)",
+    "job_type": "internship",
+    "required_skills": ["Python", "Pandas", "Machine Learning", "Scikit-learn"],
+    "preferred_skills": ["TensorFlow", "SQL", "Tableau", "Statistics"],
+    "eligibility_requirements": {
+      "degree": "B.Tech",
+      "graduation_year_max": 2026,
+      "min_gpa": 6.5
+    },
+    "official_url": "https://careers.datalensai.example.com/ds-intern",
+    "source_type": "seed"
+  },
+  {
+    "company_name": "CloudEdge Systems",
+    "title": "Junior Frontend Developer",
+    "description": "Build and maintain user interfaces for our cloud management platform. Collaborate with designers and backend engineers. Write clean, accessible, and testable React code. This is a full-time entry-level position.",
+    "location": "Pune, India (On-site)",
+    "job_type": "full_time",
+    "required_skills": ["JavaScript", "React", "HTML", "CSS"],
+    "preferred_skills": ["TypeScript", "REST APIs", "Git", "Jest"],
+    "eligibility_requirements": {
+      "degree": "B.Tech",
+      "graduation_year_min": 2023,
+      "graduation_year_max": 2025
+    },
+    "official_url": "https://careers.cloudedgesystems.example.com/junior-fe",
+    "source_type": "seed"
+  },
+  {
+    "company_name": "FinSecure Analytics",
+    "title": "Business Analyst Intern",
+    "description": "Assist the analytics team with data gathering, requirement documentation, and dashboard creation. Understand financial datasets and support senior analysts in preparing client reports. Good Excel and SQL skills are essential.",
+    "location": "Mumbai, India (Hybrid)",
+    "job_type": "internship",
+    "required_skills": ["SQL", "Excel", "Data Analysis"],
+    "preferred_skills": ["Power BI", "Python", "Tableau", "Communication"],
+    "eligibility_requirements": {
+      "degree": "B.Com",
+      "graduation_year_max": 2026
+    },
+    "official_url": "https://careers.finsecure.example.com/ba-intern",
+    "source_type": "seed"
+  },
+  {
+    "company_name": "GreenGrid Infrastructure",
+    "title": "DevOps Intern",
+    "description": "Help maintain CI/CD pipelines, monitor system health, write infrastructure-as-code scripts, and support the platform engineering team. Ideal for students interested in cloud infrastructure and automation.",
+    "location": "Hyderabad, India (On-site)",
+    "job_type": "internship",
+    "required_skills": ["Linux", "Git", "Shell Scripting"],
+    "preferred_skills": ["Docker", "AWS", "Terraform", "Jenkins", "Python"],
+    "eligibility_requirements": {
+      "degree": "B.Tech",
+      "graduation_year_max": 2026,
+      "min_gpa": 6.0
+    },
+    "official_url": "https://careers.greengrid.example.com/devops-intern",
+    "source_type": "seed"
+  }
+]

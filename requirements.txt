@@ -1,0 +1,38 @@
+# ── Web framework ─────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# ── Data validation / settings ────────────────
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# ── Database ──────────────────────────────────
+sqlalchemy==2.0.36
+aiosqlite==0.20.0          # async SQLite driver (used with SQLAlchemy async)
+
+# ── Authentication ────────────────────────────
+python-jose[cryptography]==3.3.0   # JWT tokens
+passlib[bcrypt]==1.7.4             # password hashing
+bcrypt==4.0.1                      # pin: passlib 1.7.4 is incompatible with bcrypt>=4.1
+email-validator==2.3.0             # required by pydantic EmailStr field
+greenlet==3.5.6                    # required by SQLAlchemy async engine (macOS/Python 3.12)
+
+# ── File upload helpers ───────────────────────
+python-multipart==0.0.18   # required for FastAPI file upload
+
+# ── PDF text extraction ───────────────────────
+pymupdf==1.24.14           # PyMuPDF — fitz
+
+# ── Google Gemini SDK ─────────────────────────
+google-generativeai==0.8.3
+
+# ── HTTP client (for job source adapters) ─────
+httpx==0.28.1
+
+# ── Testing ───────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx                      # already listed; FastAPI TestClient uses it
+
+# ── Utilities ────────────────────────────────
+python-dotenv==1.0.1
